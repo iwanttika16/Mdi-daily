@@ -1,6 +1,6 @@
 const bulletins = [
   {
-    date: "2025-06-15",
+    date: "2025-06-16",
     quote: "Education is the most powerful weapon which you can use to change the world.",
     quote_hindi: "शिक्षा सबसे शक्तिशाली हथियार है जिससे आप दुनिया को बदल सकते हैं।",
     quote_sanskrit: "शिक्षा शक्तिमत्ता अस्त्रं येन जगत् परिवर्त्यते।",
