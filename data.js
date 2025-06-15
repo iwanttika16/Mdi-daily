@@ -1,6 +1,6 @@
 const bulletins = [
   {
-    date: "2025-06-16",
+    date: "2025-06-15",
     quote: "Education is the most powerful weapon which you can use to change the world.",
     quote_hindi: "शिक्षा सबसे शक्तिशाली हथियार है जिससे आप दुनिया को बदल सकते हैं।",
     quote_sanskrit: "शिक्षा शक्तिमत्ता अस्त्रं येन जगत् परिवर्त्यते।",
@@ -271,6 +271,98 @@ bulletins.push(
       "Water is made up of hydrogen and oxygen (H₂O).",
       "Kargil Vijay Diwas is observed on 26th July.",
       "India is known as the land of festivals."
+    ]
+  }
+);
+bulletins.push(
+  {
+    date: "2025-07-01",
+    quote: "Your limitation—it’s only your imagination.",
+    quote_hindi: "आपकी सीमा केवल आपकी कल्पना है।",
+    quote_sanskrit: "तव सीमा तव कल्पनया एव।",
+    quote_sanskrit_meaning: "हमारी सीमाएँ हमारे मन की कल्पनाओं से उत्पन्न होती हैं।",
+    shloka: "कर्मण्येवाधिकारस्ते मा फलेषु कदाचन। मा कर्मफलहेतुर्भूर्मा ते सङ्गोऽस्त्वकर्मणि॥",
+    shloka_meaning: "तेरा कर्म करने में ही अधिकार है, उसके फलों में कभी नहीं। इसलिए तू कर्म को फल की अपेक्षा से मत कर और न ही अकर्म में आसक्त हो।",
+    kabir_doha: "साईं इतना दीजिए, जा मे कुटुम समाय।",
+    kabir_meaning: "हे प्रभु! मुझे इतना दो कि मेरा परिवार सुखपूर्वक जीवन यापन कर सके।",
+    gk: [
+      "Mango is the national fruit of India.",
+      "India is the 7th largest country by area.",
+      "Mahatma Gandhi is called the Father of the Nation.",
+      "Light travels faster than sound.",
+      "Lal Bahadur Shastri coined the slogan ‘Jai Jawan Jai Kisan’."
+    ]
+  },
+  {
+    date: "2025-07-02",
+    quote: "Push yourself, because no one else is going to do it for you.",
+    quote_hindi: "खुद को आगे बढ़ाओ, क्योंकि कोई और नहीं करेगा।",
+    quote_sanskrit: "स्वं प्रयत्नं कुरु, अन्यः न त्वां प्रेरयिष्यति।",
+    quote_sanskrit_meaning: "प्रयास स्वयं से ही करना होता है, दूसरों पर निर्भर नहीं रहना चाहिए।",
+    shloka: "उद्धरेदात्मनात्मानं नात्मानमवसादयेत्। आत्मैव ह्यात्मनो बन्धुरात्मैव रिपुरात्मनः॥",
+    shloka_meaning: "मनुष्य को चाहिए कि वह स्वयं अपने को ऊपर उठाए, स्वयं को नीचा न गिराए, क्योंकि आत्मा ही उसका मित्र है और आत्मा ही उसका शत्रु।",
+    kabir_doha: "दुख में सुमिरन सब करें, सुख में करे न कोय।",
+    kabir_meaning: "सभी लोग दुख में भगवान को याद करते हैं, पर सुख में कोई नहीं करता।",
+    gk: [
+      "Chlorophyll gives plants their green color.",
+      "Mitosis is the process of cell division.",
+      "Sun rises in the east and sets in the west.",
+      "The largest mammal is the Blue Whale.",
+      "Ashoka’s symbol is used in the national emblem of India."
+    ]
+  },
+  {
+    date: "2025-07-03",
+    quote: "Don’t watch the clock; do what it does. Keep going.",
+    quote_hindi: "घड़ी को मत देखो; जैसा वह करती है, वैसे चलते रहो।",
+    quote_sanskrit: "घटीं पश्य न; यथा सा गच्छति, तथा त्वम् अपि गच्छ।",
+    quote_sanskrit_meaning: "समय देखने के बजाय उस पर काम करो, जैसे घड़ी निरंतर चलती है।",
+    shloka: "सुखदुःखे समे कृत्वा लाभालाभौ जयाजयौ। ततो युद्धाय युज्यस्व नैवं पापमवाप्स्यसि॥",
+    shloka_meaning: "सुख-दुख, लाभ-हानि और जय-पराजय को समान समझकर युद्ध कर, इससे तू पाप को नहीं प्राप्त होगा।",
+    kabir_doha: "माला फेरत जुग भया, फिरा न मन का फेर।",
+    kabir_meaning: "अगर मन में बदलाव नहीं आया, तो माला फेरना व्यर्थ है।",
+    gk: [
+      "The Lotus is the national flower of India.",
+      "Oxygen is essential for human respiration.",
+      "The moon orbits the Earth in about 27.3 days.",
+      "The currency of Japan is Yen.",
+      "ISRO is India’s space research organization."
+    ]
+  },
+  {
+    date: "2025-07-04",
+    quote: "Great things never come from comfort zones.",
+    quote_hindi: "बड़ी चीजें कभी आराम के दायरे से नहीं आतीं।",
+    quote_sanskrit: "महानं किमपि न जायते सुखक्षेत्रात्।",
+    quote_sanskrit_meaning: "सफलता और महान कार्य आराम की सीमाओं से बाहर निकल कर ही होते हैं।",
+    shloka: "श्रेयान्स्वधर्मो विगुणः परधर्मात्स्वनुष्ठितात्। स्वधर्मे निधनं श्रेयः परधर्मो भयावहः॥",
+    shloka_meaning: "अपने धर्म का पालन दोषपूर्ण भी श्रेष्ठ है, दूसरे धर्म का पालन भय पैदा करता है।",
+    kabir_doha: "बुरा जो देखन मैं चला, बुरा न मिलिया कोय।",
+    kabir_meaning: "दूसरों में बुराई खोजने गया था, लेकिन खुद के अंदर ही बुराई मिल गई।",
+    gk: [
+      "The brain is protected by the skull.",
+      "The Indian flag has three colors: saffron, white, and green.",
+      "Rajasthan is the largest state in India by area.",
+      "Volcanoes are openings in Earth’s crust.",
+      "The Milky Way is our galaxy."
+    ]
+  },
+  {
+    date: "2025-07-05",
+    quote: "Dream it. Wish it. Do it.",
+    quote_hindi: "स्वप्न देखो। कामना करो। पूरा करो।",
+    quote_sanskrit: "सप्नं पश्य, इच्छां कुरु, तत् क्रियया साधय।",
+    quote_sanskrit_meaning: "केवल स्वप्न देखना पर्याप्त नहीं, उसे साकार करने के लिए कार्य भी करना चाहिए।",
+    shloka: "न हि ज्ञानेन सदृशं पवित्रमिह विद्यते। तत्स्वयं योगसंसिद्धः कालेनात्मनि विन्दति॥",
+    shloka_meaning: "इस संसार में ज्ञान के समान कोई पवित्र वस्तु नहीं है। जो योग में सिद्ध हो जाता है, वह ज्ञान को अपने आप प्राप्त करता है।",
+    kabir_doha: "जिन खोजा तिन पाइयाँ, गहरे पानी पैठ।",
+    kabir_meaning: "जो लोग सच में खोज करते हैं, वही गहराई में जाकर असली मोती पाते हैं।",
+    gk: [
+      "The President of India is the head of the state.",
+      "Photosynthesis occurs in leaves.",
+      "Red Fort is located in Delhi.",
+      "The Andaman Islands are in the Bay of Bengal.",
+      "Diamonds are made of carbon."
     ]
   }
 );
