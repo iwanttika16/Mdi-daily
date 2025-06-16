@@ -7,7 +7,7 @@
   <style>
     body { font-family: Arial, sans-serif; background: #f0f8ff; color: #000; margin: 20px; }
     .container { max-width: 900px; margin: auto; background: #ffffff; padding: 20px; border-radius: 10px; border: 2px solid #004080; }
-    h1 { text-align: center; color: #d60000; }
+    h1 { text-align: center; color: #FF0000; }
     .section { margin-bottom: 20px; }
     .section h2 { color: #004080; }
     .gk-list li { margin-bottom: 5px; }
@@ -28,22 +28,22 @@
 
     if (bulletin) {
       container.innerHTML = `
-        <div class="section"><strong>Date:</strong> ${bulletin.date}</div>
-        <div class="section"><h2>Thought of the Day</h2>
+        <div class="section"><strong>🗓️Date:</strong> ${bulletin.date}</div>
+        <div class="section"><h2>💭Thought of the Day</h2>
           <p><strong>English:</strong> ${bulletin.quote}</p>
           <p><strong>Hindi:</strong> ${bulletin.quote_hindi}</p>
           <p><strong>Sanskrit:</strong> ${bulletin.quote_sanskrit}</p>
           <p><strong>Sanskrit Meaning:</strong> ${bulletin.quote_sanskrit_meaning}</p>
         </div>
-        <div class="section"><h2>Bhagavad Gita Shloka</h2>
+        <div class="section"><h2>📖Bhagavad Gita Shloka</h2>
           <p><strong>Shloka:</strong> ${bulletin.shloka}</p>
           <p><strong>Meaning:</strong> ${bulletin.shloka_meaning}</p>
         </div>
-        <div class="section"><h2>Kabir Doha</h2>
+        <div class="section"><h2>📖Kabir Doha</h2>
           <p><strong>Doha:</strong> ${bulletin.kabir_doha}</p>
           <p><strong>Meaning:</strong> ${bulletin.kabir_meaning}</p>
         </div>
-        <div class="section"><h2>GK Trivia</h2>
+        <div class="section"><h2>🧠GK Trivia</h2>
           <ul class="gk-list">${bulletin.gk.map(g => `<li>${g}</li>`).join('')}</ul>
         </div>
       `;
